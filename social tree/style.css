@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: #BB99DD;
+font-family:'poppins',sans-serif;}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+  body{background-color:  var(--body-bg-color);
+}
+.SOCIALTREE{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+    gap: 20px;
+     
+
+
+}
+.socialimg{
+    width: 150PX;
+    height: 150px;
+    border-radius: 50%;
+border: 0 0 1px #FFF;
+}
+.SOCIALTREE h1{
+    font-size: 2.5rem;
+
+}
+.SOCIALTREE a{
+    background-color: #BB99DD;
+    color: var(--body-bg-color);
+    width: 159px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: solid 2px var(--purple);
+
+}
